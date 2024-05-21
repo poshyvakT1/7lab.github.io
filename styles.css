@@ -1,0 +1,34 @@
+.loader {
+  display: block;
+  border: 5px solid #f0f0f0;
+  border-top: 5px solid #06315c;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+body {
+  background-color: #96c3ef;
+}
+.navbar-brand {
+  font-weight: bold; /* Make the navbar brand text bold */
+}
+.navbar-toggler {
+  border-color: #fff; /* White color for the toggler icon border */
+}
+.nav-link {
+  color: #ffffff; /* White color for nav links */
+}
+.nav-link.active {
+  font-weight: bold; /* Make active nav link text bold */
+}
